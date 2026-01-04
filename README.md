@@ -9,22 +9,23 @@
 
 ## Estructura del Proyecto
 ├── data/
-│ ├── raw/ # Datos originales
-│ ├── processed/ # Datos limpios y transformados
+│   ├── raw/                  # Datos originales
+│   └── processed/            # Datos limpios y transformados
 │
 ├── scripts/
-│ ├── 01_importacion.R # Importación de datos
-│ ├── 02_limpieza.R # Limpieza y preparación
-│ ├── 03_eda.R # Análisis exploratorio
-│ ├── 04_logit_base.R # Modelo LOGIT principal
-│ ├── 05_logit_categorico.R # Segundo LOGIT con variables categóricas
+│   ├── 01_importacion.R      # Importación de datos
+│   ├── 02_limpieza.R         # Limpieza y preparación
+│   ├── 03_eda.R              # Análisis exploratorio
+│   ├── 04_logit_base.R       # Modelo LOGIT principal
+│   └── 05_logit_categorico.R # Segundo LOGIT con variables categóricas
 │
 ├── outputs/
-│ ├── tablas/ # Tablas de resultados
-│ ├── graficos/ # Visualizaciones
+│   ├── tablas/               # Tablas de resultados
+│   └── graficos/             # Visualizaciones
 │
 ├── README.md
 └── requirements.txt / renv.lock
+
 ---
 
 ## Flujo Metodológico
