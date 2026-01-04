@@ -8,6 +8,7 @@
 ---
 
 ## Estructura del Proyecto
+```text
 ├── data/
 │   ├── raw/                  # Datos originales
 │   └── processed/            # Datos limpios y transformados
